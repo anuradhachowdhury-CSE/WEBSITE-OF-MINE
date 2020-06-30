@@ -24,9 +24,10 @@ body{
         font-size: 50px;
         color:blue;
     }
-    span{
-        color:red;
-        padding:5px;
+    .ice{
+        color:violet;
+        padding: 10px;
+
     }
    
     section{
@@ -52,4 +53,14 @@ body{
         border-left: 7px solid;
         border-image:linear-gradient(blue,cyan);
         border-image-slice:1;
+    }
+    footer{
+        text-align: center;
+        font-size:20px;
+    }
+    .button{
+        text-decoration: none;
+        border:2px solid white;
+        background-color: white;
+        font-size:20px;
     }
