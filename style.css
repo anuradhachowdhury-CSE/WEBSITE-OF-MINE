@@ -1,20 +1,22 @@
 body{
-    margin:0;    
+    /**margin:0;    
     background-image: url("image/wedding-flower-frame-blue-background-above-beautiful-floral-pattern-flat-lay-style-79676427.jpg");
+
     height:100vh;
     background-size: cover;
-    background-position: center;
-    
+    background-position: center;**/
+    background-image:linear-gradient(red,orange,yellow);
         
     }
-    .first{
+    .portion{
         width:40%;
         float:left;
         margin-left: 5%;
         padding-left: 5%;
+        
       
     }
-    .first img{
+    .portion img{
         width:60%;
     
     }
@@ -26,14 +28,28 @@ body{
         color:red;
         padding:5px;
     }
-    .first h3:hover{
+   
+    section{
+        height:500px;
+    }
+    .last .portion{
+        box-shadow: 10px 10px 60px;
+        height:200px;
+        width:30%;
+        background-color: aliceblue;
+
+    }
+    .last h2{
         font-size: 30px;
-        background-color: brown;
-    
+        font-weight: bold;
     }
-    .first p:hover{
-        font-size: 24px;
-        background-color: chocolate;
+    #other{
+        border-left: 7px solid;
+        border-image:linear-gradient(red,yellow);
+        border-image-slice:1;
     }
-    
-    
+    #any{
+        border-left: 7px solid;
+        border-image:linear-gradient(blue,cyan);
+        border-image-slice:1;
+    }
