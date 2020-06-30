@@ -5,7 +5,7 @@ body{
     height:100vh;
     background-size: cover;
     background-position: center;**/
-    background-image:linear-gradient(red,orange,yellow);
+    background-image:linear-gradient(yellow,cyan,blue);
         
     }
     .portion{
@@ -17,15 +17,15 @@ body{
       
     }
     .portion img{
-        width:60%;
+        width:80%;
     
     }
     h1{
         font-size: 50px;
-        color:blue;
+        color:black;
     }
     .ice{
-        color:violet;
+        color:blue;
         padding: 10px;
 
     }
@@ -51,7 +51,7 @@ body{
     }
     #any{
         border-left: 7px solid;
-        border-image:linear-gradient(blue,cyan);
+        border-image:linear-gradient(blue,red);
         border-image-slice:1;
     }
     footer{
